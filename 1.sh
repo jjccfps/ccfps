@@ -1,12 +1,6 @@
 
 #!/bin/bash
 
-# 打开QQ
-#start /d/soft/QQ/Bin/QQ.exe
-#sleep 20
-# 关闭QQ
-#taskkill //f //im QQ.exe
-
 
 
 # 获取，重命名图片
@@ -36,7 +30,7 @@ echo "图片重命名完成，最后一张图片时是：0$counter.png"
 echo "正在移动文件"
 # =================2.需要修改路径=====================
 # 1. 将所有0开头的图片移动到另一个目录下
-find /c/Users/jc/Desktop/java -maxdepth 1 -name "0*" -type f -exec mv {} /E/Github/ccfps/java | tail /E/Github/ccfps/java | tail \;
+find /c/Users/jc/Desktop/java -maxdepth 1 -name "0*" -type f -exec mv {} /E/Github/ccfps/java | tail \;
 # =================================================
 
 
