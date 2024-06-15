@@ -10,6 +10,6 @@ git commit -m "更新文件"
 
 git push
 
-打开了瓦达达娃
+git pull
 
 
